@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="QuizWrapper">
+        <h2 id="Question">Your quiz will start whenever you click the Start Button</h2>
+        <div id="DisplayQuestions">
+    <div class="Choice" style="margin-top: 35px;">
+            <input id="A" class="Option" name="Answer" type="radio">
+            <label id="ChoiceAText" for="ChoiceA">ChoiceA</label>
+    </div>
+
+    <div class="Choice">
+            <input id="B" name="Answer" class="Option" type="radio">
+            <label id="ChoiceBText" for="ChoiceB">ChoiceB</label>
+    </div>
+
+    <div class="Choice">
+            <input id="C" name="Answer" class="Option" type="radio">
+            <label id="ChoiceCText" for="ChoiceC">ChoiceC</label>
+    </div>
+    <div class="Choice">
+            <input id="D" name="Answer" class="Option" type="radio">
+            <label id="ChoiceDText" for="ChoiceD">ChoiceD</label>
+    </div>
+</div>
+
+    <button id="Submit" onclick="StartQuiz()">Start</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
